@@ -10,3 +10,8 @@ Bulk upload service serves as a service that will receive requests from users/cl
 
 ### Bulk Upload Consumer
 serves as a service that will receive messages from message brokers based on predetermined topics. Then it will carry out the process of creating data into the database for any data received from the message broker itself.
+
+### How To Run
+`docker-compose up -d`
+
+### API Documentation
